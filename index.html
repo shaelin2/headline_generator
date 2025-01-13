@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Icon-->
+        <link rel="shortcut icon" href="" type="image/x-icon">
+        <!--Stylesheet-->
+        <link rel="stylesheet" href="Resources/styles.css">
+        <!--Special Elite-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <!--JS-->
+        <script src="Resources/headline.js"></script>
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <div class="image-container">
+                <img src="Resources/masthead.png">
+            </div>
+        </header>
+        
+        <!--Main-->
+        <main>
+            <div id="date" class="special-elite">
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        document.getElementById('date').textContent = getDate();
+                    });
+                </script>
+            </div>
+            <div id="headline" class="special-elite">
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        document.getElementById('headline').textContent = getHeadline();
+                    });
+                </script>
+            </div>
+
+            <div id="article-text">
+                <p class="special-elite">
+                    Last week, an event occurred that our intrepid reporter will now recount in great detail. The event involved numerous people, places, and things, about which the specifics, and the particulars of their involvement in the aforementioned event, we will shortly be learning. Our reporter witnessed the situation unfolding first-hand and has many insights to share regarding the captivating intricacies of the concerned circumstances.
+                </p>
+            </div>
+        </main>
+        
+        <!--Footer-->
+        <footer>
+            <span class="special-elite"><a href="https://unsplash.com/photos/an-old-photo-of-a-man-in-a-suit-and-tie-P9WqJ4ZVY5I" target="_blank" >Background Image</a></span>
+        </footer>
+    </body>
+</html>
