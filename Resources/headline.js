@@ -21,17 +21,17 @@ const animals = [
 let animal = animals[Math.floor(Math.random() * animals.length)];
 
 const persons = [
-    "shopkeeper",
-    "councillor",
-    "itinerant",
-    "garbage collector",
-    "fortune teller"
+    "Local shopkeeper",
+    "Mayor",
+    "Local elevator operator",
+    "Local garbage collector",
+    "Fortune teller"
 ];
 let person = persons[Math.floor(Math.random() * persons.length)];
 
 let subjectNum = Math.floor(Math.random()*2);
 if (subjectNum === 0) {
-    subject = `Local ${person}`;
+    subject = person;
 } else {
     subject = animal;
 }
